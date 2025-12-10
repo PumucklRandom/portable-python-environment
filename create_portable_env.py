@@ -272,7 +272,7 @@ def main():
             return 3
 
         # Step 4: Clean up unnecessary files
-        if not clean_up_portable_python(*[True] * 7, exceptions = ['nicegui']):
+        if not clean_up_portable_python():
             return 4
 
         print(f'The portable Python environment is available in:\n{os.path.abspath(ENV_DIR)}\n')
