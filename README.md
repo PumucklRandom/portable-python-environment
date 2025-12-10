@@ -9,7 +9,7 @@ The `create_portable_env.py` script creates a portable Python environment for Wi
 - Downloads the embeddable Python version matching the current activated Python environment
 - Installs pip in the portable environment
 - Installs all dependencies from the current activated Python environment via `pip freeze`
-- Optionally cleans up unnecessary files to reduce size (packages, pychache, Scripts, files/folders, *.dist-info, pip)
+- Optionally cleans up unnecessary files to reduce size (packages, pycache, Scripts, files/folders, *.dist-info, pip)
 
 ### Use cases
 
