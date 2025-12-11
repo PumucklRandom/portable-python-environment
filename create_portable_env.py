@@ -1,3 +1,4 @@
+import io
 import os
 import sys
 import shutil
@@ -304,4 +305,5 @@ if __name__ == "__main__":
         print('WARNING: The portable Python environment is only supported on Windows.\n')
     exit_code = main()
     sys.exit(exit_code)
+
 
